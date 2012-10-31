@@ -1,0 +1,25 @@
+basePath = '../';
+
+files = [
+  JASMINE,
+  JASMINE_ADAPTER,
+  'js/angular/angular.js',
+  'js/angular/angular-*.js',
+  'test/lib/angular/angular-mocks.js',
+  'js/*.js',
+'js/angular/*.js',
+'js/vendor/*.js',
+'js/leaflet/dist/leaflet-src.js',
+  'test/unit/**/*.js',
+'js/leaflet/test/unit/leaflet/*js',
+'js/leaflet/test/unit/*js'
+];
+
+autoWatch = false;
+
+browsers = ['Chrome'];
+
+junitReporter = {
+  outputFile: 'test_out/unit.xml',
+  suite: 'unit'
+};
