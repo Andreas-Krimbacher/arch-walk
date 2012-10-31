@@ -5,6 +5,7 @@
 function PhoneListCtrl($scope, Phone) {
     $scope.phones = Phone.query();
     $scope.orderProp = 'age';
+
 }
 
  
