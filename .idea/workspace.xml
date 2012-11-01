@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29c6350e-a9ea-4a9e-a967-91e3f576dc5d" name="Default" comment="">
+    <list default="true" id="29c6350e-a9ea-4a9e-a967-91e3f576dc5d" name="Default" comment="map directive">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.less" afterPath="$PROJECT_DIR$/css/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers.js" afterPath="$PROJECT_DIR$/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives.js" afterPath="$PROJECT_DIR$/js/directives.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/services.js" afterPath="$PROJECT_DIR$/js/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/map.html" afterPath="$PROJECT_DIR$/partials/map.html" />
     </list>
     <ignored path="arch-walk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -375,7 +369,11 @@
       <created>1351741839099</created>
       <updated>1351741839099</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="map directive">
+      <created>1351796565099</created>
+      <updated>1351796565099</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -426,7 +424,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
       <value>
@@ -456,7 +454,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="first map" />
+    <option name="LAST_COMMIT_MESSAGE" value="map directive" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -472,6 +470,7 @@
     <MESSAGE value="webstorm" />
     <MESSAGE value="testacular" />
     <MESSAGE value="first map" />
+    <MESSAGE value="map directive" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
