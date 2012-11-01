@@ -2,7 +2,6 @@
 
 /* Controllers */
 
-archWalk.MapController = function( $scope , MapLibrary ) {
+archWalk.MapController = function( $scope ) {
 
-    MapLibrary.showMap('map-div');
 };
