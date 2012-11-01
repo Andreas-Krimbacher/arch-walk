@@ -2,12 +2,11 @@
 
 /* App Module */
 
-angular.module('phonecat', ['phonecatFilters', 'phonecatServices']).
+//var archWalk = angular.module('arch-walk', []);
+
+var archWalk = angular.module('arch-walk', []).
   config(['$routeProvider', function($routeProvider) {
   $routeProvider.
-      when('/phones', {templateUrl: 'partials/phone-list.html',   controller: PhoneListCtrl}).
-      when('/phones/:phoneId', {templateUrl: 'partials/phone-detail.html', controller: PhoneDetailCtrl}).
-      otherwise({redirectTo: '/phones'});
-      
-     
+      when('/', {templateUrl: 'partials/map.html',   controller: archWalk.MapController}).
+      otherwise({redirectTo: '/'});
 }]);
