@@ -27,7 +27,13 @@
 
         <!-- Add your site or application content here -->
 
-        <h1>Arch-Walk Input</h1>
+        <div ng-controller="archWalk.FormController">
+                <form name="form"  novalidate class="css-form">
+                    Lat: <input type="number" ng-model="point.lat" min="-90" max="90" smart-float /><br />
+                    Lon: <input type="number" ng-model="point.lng" min="-180" max="180" smart-float /><br />
+                    <button ng-click="showMarker(point)" ng-disabled="form.$invalid || isUnchanged(user)">Show</button>
+                </form>
+            </div>
         <div ng-view></div>
 
 

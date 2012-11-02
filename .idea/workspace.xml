@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="29c6350e-a9ea-4a9e-a967-91e3f576dc5d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.less" afterPath="$PROJECT_DIR$/css/main.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers.js" afterPath="$PROJECT_DIR$/js/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives.js" afterPath="$PROJECT_DIR$/js/directives.js" />
     </list>
     <ignored path="arch-walk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,10 +26,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="2272" selection-end="2272" vertical-scroll-proportion="1.0897436">
+            <state line="30" column="35" selection-start="1537" selection-end="1537" vertical-scroll-proportion="-16.875">
               <folding />
             </state>
           </provider>
@@ -44,16 +47,16 @@
       <file leaf-file-name="main.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="180" column="4" selection-start="2868" selection-end="2868" vertical-scroll-proportion="0.0">
+            <state line="203" column="1" selection-start="3569" selection-end="3569" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="directives.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="directives.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/directives.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="9" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0">
+            <state line="14" column="23" selection-start="361" selection-end="361" vertical-scroll-proportion="0.2841678">
               <folding />
             </state>
           </provider>
@@ -80,7 +83,7 @@
       <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="2" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+            <state line="16" column="40" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,12 +108,12 @@
         <option value="$PROJECT_DIR$/test/e2e/scenarios.js" />
         <option value="$PROJECT_DIR$/partials/phone-detail.html" />
         <option value="$PROJECT_DIR$/js/app.js" />
-        <option value="$PROJECT_DIR$/js/directives.js" />
-        <option value="$PROJECT_DIR$/css/main.less" />
         <option value="$PROJECT_DIR$/js/services.js" />
         <option value="$PROJECT_DIR$/partials/map.html" />
         <option value="$PROJECT_DIR$/js/controllers.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/main.less" />
+        <option value="$PROJECT_DIR$/js/directives.js" />
       </list>
     </option>
   </component>
@@ -396,7 +399,11 @@
       <created>1351796598575</created>
       <updated>1351796598575</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="index clean up">
+      <created>1351796836370</created>
+      <updated>1351796836370</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -477,7 +484,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="map directive" />
+    <option name="LAST_COMMIT_MESSAGE" value="index clean up" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -494,6 +501,7 @@
     <MESSAGE value="testacular" />
     <MESSAGE value="first map" />
     <MESSAGE value="map directive" />
+    <MESSAGE value="index clean up" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -540,16 +548,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.less">
+    <entry file="file://$PROJECT_DIR$/js/angular/angular-resource.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="180" column="4" selection-start="2868" selection-end="2868" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
+    <entry file="file://$PROJECT_DIR$/js/plugins.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
+        <state line="24" column="0" selection-start="737" selection-end="737" vertical-scroll-proportion="0.4871448">
           <folding />
         </state>
       </provider>
@@ -568,37 +576,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives.js">
+    <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="9" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0">
+        <state line="12" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/angular/angular-resource.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/plugins.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="737" selection-end="737" vertical-scroll-proportion="0.4871448">
+        <state line="16" column="40" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="2272" selection-end="2272" vertical-scroll-proportion="1.0897436">
+        <state line="30" column="35" selection-start="1537" selection-end="1537" vertical-scroll-proportion="-16.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="203" column="1" selection-start="3569" selection-end="3569" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="23" selection-start="361" selection-end="361" vertical-scroll-proportion="0.2841678">
           <folding />
         </state>
       </provider>
