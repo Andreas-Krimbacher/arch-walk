@@ -1,0 +1,52 @@
+<div ng-controller="archWalk.FormController">
+    <h4>Data Input</h4>
+    <form name="form" class="css-form" novalidate>
+        <div class="controls controls-row">
+            <label class="span2">Main category</label>
+            <label class="span2">Language</label>
+            <label class="span2">Other categories</label>
+        </div>
+        <div class="controls controls-row">
+            <select size="4" class="span2" ng-model="mainCategory" name="mainCategory" required>
+                <option selected="selected">Architecture</option>
+            </select>
+
+            <select multiple="multiple" class="span2" ng-model="otherCategories" name="otherCategories">
+                <option>Public Building</option>
+                <option>Test</option>
+            </select>
+
+            <select class="span2" ng-model="language" name="language">
+                <option selected="selected">English</option>
+                <option>German</option>
+            </select>
+        </div>
+
+        <label>Information</label>
+        <textarea ng-model="information" name="information" rows="6" class="span6" required></textarea>
+
+        <h4>Polygon Input</h4>
+        <map ng-controller="archWalk.MapController"></map>
+
+        <div class="controls controls-row">
+            <div class="btn-group">
+                <a class="btn span1" id="map-polygon" href="" title="Edit Polygon"><i class="icon-edit"></i></a>
+                <a class="btn span1" id="map-point" href="" title="Edit Point"><i class="icon-pencil"></i></a>
+            </div>
+
+            <form name="searchForm" class="css-form" novalidate>
+                <div class="input-append" id="map-search">
+                    <input class="span3"  type="text" ng-model="locationSearchText">
+                    <button type="submit" class="btn" title="Search" ng-click="showLocation(locationSearchText)"><i class="icon-search"></i></button>
+                </div>
+            </form>
+
+            <input type="checkbox" style="display: none" ng-model="mapData" name="mapData" required>
+
+        </div>
+
+        <button id="form-submit" ng-click="saveData()" ng-disabled="form.$invalid" ng-class="{true:'btn btn-warning disabled', false:'btn btn-success'}[form.$invalid]">Save</button>
+        <div class="text-warning" ng-show="form.information.$error.required">(Add some Information!)</div>
+        <div class="text-warning" ng-show="!form.information.$error.required && form.mapData.$error.required">(Define a polygon and a center point!)</div>
+    </form>
+</div>

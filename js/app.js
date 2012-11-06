@@ -7,6 +7,6 @@
 var archWalk = angular.module('arch-walk', []).
   config(['$routeProvider', function($routeProvider) {
   $routeProvider.
-      when('/', {templateUrl: 'partials/map.html',   controller: archWalk.MapController}).
+      when('/', {templateUrl: 'partials/inputForm.html'}).
       otherwise({redirectTo: '/'});
 }]);
