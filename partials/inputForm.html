@@ -1,6 +1,13 @@
 <div ng-controller="archWalk.FormController">
-    <h4>Data Input</h4>
+    <p>
+        <strong>Data Input</strong> <small class="text-info" ng-show="!form.title.$error.pattern">Page Title: {{title|pageNameTitle}}_{{mainCategory}}_{{markerInfo|pageNameLocation}}_{{language|pageNameLanguage}}</small>
+        <small class="text-error" ng-show="form.title.$error.pattern">Title characters: A-Z a-z 0-9 ' '</small>
+    </p>
     <form name="form" class="css-form" novalidate>
+        <span id="title-label" class="span1">Title: </span> <input id="title" class="span5"  type="text" ng-model="title" name="title" ng-pattern="/^[A-Za-z0-9 ]+$/" required>
+
+
+
         <div class="controls controls-row">
             <label class="span2">Main category</label>
             <label class="span2">Language</label>
@@ -25,13 +32,17 @@
         <label>Information</label>
         <textarea ng-model="information" name="information" rows="6" class="span6" required></textarea>
 
-        <h4>Polygon Input</h4>
+        <p>
+        <strong>Map Input</strong> <small class="text-info">({{markerInfo.formatted_address}})</small>
+        </p>
+
         <map ng-controller="archWalk.MapController"></map>
 
         <div class="controls controls-row">
             <div class="btn-group">
-                <a class="btn span1" id="map-polygon" href="" title="Edit Polygon"><i class="icon-edit"></i></a>
-                <a class="btn span1" id="map-point" href="" title="Edit Point"><i class="icon-pencil"></i></a>
+                <a class="btn span1" ng-class="{true:'active', false:''}[polygonEdit]" ng-click="editPolygon()" id="map-polygon" href="" title="Edit Polygon"><i class="icon-edit"></i></a>
+                <a class="btn span1" ng-class="{true:'active', false:''}[pointEdit]" ng-click="editPoint()" id="map-point" href="" title="Edit Point"><i class="icon-pencil"></i></a>
+                <a class="btn span1" ng-class="{true:'', false:'disabled'}[polygonEdit || pointEdit]" ng-click="deleteElement()" id="map-delete" href="" title="Edit Point"><i class="icon-remove"></i></a>
             </div>
 
             <form name="searchForm" class="css-form" novalidate>
@@ -46,7 +57,8 @@
         </div>
 
         <button id="form-submit" ng-click="saveData()" ng-disabled="form.$invalid" ng-class="{true:'btn btn-warning disabled', false:'btn btn-success'}[form.$invalid]">Save</button>
-        <div class="text-warning" ng-show="form.information.$error.required">(Add some Information!)</div>
-        <div class="text-warning" ng-show="!form.information.$error.required && form.mapData.$error.required">(Define a polygon and a center point!)</div>
+        <small class="text-warning" ng-show="form.title.$error.required">(Add a title!)</small>
+        <small class="text-warning" ng-show="!form.title.$error.required && form.information.$error.required">(Add some information!)</small>
+        <small class="text-warning" ng-show="!form.title.$error.required && !form.information.$error.required && form.mapData.$error.required">(Define a polygon and a center point!)</small>
     </form>
 </div>

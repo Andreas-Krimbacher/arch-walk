@@ -2,113 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29c6350e-a9ea-4a9e-a967-91e3f576dc5d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/inputForm.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/dell-streak-7.0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/dell-streak-7.1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/dell-streak-7.2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/dell-streak-7.3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/dell-streak-7.4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/dell-venue.0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/dell-venue.1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/dell-venue.2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/dell-venue.3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/dell-venue.4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/dell-venue.5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/droid-2-global-by-motorola.0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/droid-2-global-by-motorola.1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/droid-2-global-by-motorola.2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/droid-pro-by-motorola.0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/droid-pro-by-motorola.1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/lg-axis.0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/lg-axis.1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/lg-axis.2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/motorola-atrix-4g.0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/motorola-atrix-4g.1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/motorola-atrix-4g.2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/motorola-atrix-4g.3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/motorola-bravo-with-motoblur.0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/motorola-bravo-with-motoblur.1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/motorola-bravo-with-motoblur.2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/motorola-charm-with-motoblur.0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/motorola-charm-with-motoblur.1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/motorola-charm-with-motoblur.2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/motorola-defy-with-motoblur.0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/motorola-defy-with-motoblur.1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/motorola-defy-with-motoblur.2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/motorola-xoom-with-wi-fi.0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/motorola-xoom-with-wi-fi.1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/motorola-xoom-with-wi-fi.2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/motorola-xoom-with-wi-fi.3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/motorola-xoom-with-wi-fi.4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/motorola-xoom-with-wi-fi.5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/motorola-xoom.0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/motorola-xoom.1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/motorola-xoom.2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/nexus-s.0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/nexus-s.1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/nexus-s.2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/nexus-s.3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/samsung-galaxy-tab.0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/samsung-galaxy-tab.1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/samsung-galaxy-tab.2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/samsung-galaxy-tab.3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/samsung-galaxy-tab.4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/samsung-galaxy-tab.5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/samsung-galaxy-tab.6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/samsung-gem.0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/samsung-gem.1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/samsung-gem.2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/samsung-mesmerize-a-galaxy-s-phone.0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/samsung-mesmerize-a-galaxy-s-phone.1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/samsung-mesmerize-a-galaxy-s-phone.2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/samsung-mesmerize-a-galaxy-s-phone.3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/samsung-showcase-a-galaxy-s-phone.0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/samsung-showcase-a-galaxy-s-phone.1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/samsung-showcase-a-galaxy-s-phone.2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/samsung-transform.0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/samsung-transform.1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/samsung-transform.2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/samsung-transform.3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/samsung-transform.4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/sanyo-zio.0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/sanyo-zio.1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/sanyo-zio.2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/t-mobile-g2.0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/t-mobile-g2.1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/t-mobile-g2.2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/t-mobile-mytouch-4g.0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/t-mobile-mytouch-4g.1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/t-mobile-mytouch-4g.2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/t-mobile-mytouch-4g.3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/t-mobile-mytouch-4g.4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phones/t-mobile-mytouch-4g.5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phones/dell-streak-7.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phones/dell-venue.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phones/droid-2-global-by-motorola.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phones/droid-pro-by-motorola.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phones/lg-axis.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phones/motorola-atrix-4g.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phones/motorola-bravo-with-motoblur.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phones/motorola-charm-with-motoblur.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phones/motorola-defy-with-motoblur.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phones/motorola-xoom-with-wi-fi.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phones/motorola-xoom.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phones/nexus-s.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phones/phones.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phones/samsung-galaxy-tab.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phones/samsung-gem.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phones/samsung-mesmerize-a-galaxy-s-phone.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phones/samsung-showcase-a-galaxy-s-phone.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phones/samsung-transform.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phones/sanyo-zio.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phones/t-mobile-g2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phones/t-mobile-mytouch-4g.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.less" afterPath="$PROJECT_DIR$/css/main.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers.js" afterPath="$PROJECT_DIR$/js/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives.js" afterPath="$PROJECT_DIR$/js/directives.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/filters.js" afterPath="$PROJECT_DIR$/js/filters.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/services.js" afterPath="$PROJECT_DIR$/js/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/inputForm.html" afterPath="$PROJECT_DIR$/partials/inputForm.html" />
     </list>
     <ignored path="arch-walk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -131,7 +32,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="50" selection-start="2019" selection-end="2019" vertical-scroll-proportion="-23.125">
+            <state line="52" column="135" selection-start="2269" selection-end="2269" vertical-scroll-proportion="-21.875">
               <folding />
             </state>
           </provider>
@@ -140,7 +41,7 @@
       <file leaf-file-name="main.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="0" selection-start="1994" selection-end="1994" vertical-scroll-proportion="0.0">
+            <state line="109" column="6" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -149,16 +50,16 @@
       <file leaf-file-name="directives.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/directives.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="23" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0">
+            <state line="41" column="18" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inputForm.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="inputForm.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/inputForm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="14" selection-start="342" selection-end="342" vertical-scroll-proportion="0.19444445">
+            <state line="3" column="103" selection-start="378" selection-end="378" vertical-scroll-proportion="-1.875">
               <folding>
                 <element signature="n#style#0;n#input#0;n#div#2;n#form#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -166,10 +67,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="filters.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/filters.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="31" selection-start="39" selection-end="61" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2175" column="2" selection-start="38873" selection-end="38903" vertical-scroll-proportion="-12.653846">
+            <state line="592" column="0" selection-start="8784" selection-end="8811" vertical-scroll-proportion="-9.692307">
               <folding />
             </state>
           </provider>
@@ -187,16 +97,16 @@
       <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="22" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.0">
+            <state line="129" column="33" selection-start="3904" selection-end="3904" vertical-scroll-proportion="-11.192307">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="services.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="41" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
+            <state line="22" column="5" selection-start="333" selection-end="333" vertical-scroll-proportion="0.4140527">
               <folding />
             </state>
           </provider>
@@ -222,12 +132,13 @@
         <option value="$PROJECT_DIR$/partials/phone-detail.html" />
         <option value="$PROJECT_DIR$/partials/map.html" />
         <option value="$PROJECT_DIR$/js/app.js" />
-        <option value="$PROJECT_DIR$/js/services.js" />
-        <option value="$PROJECT_DIR$/js/directives.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/directives.js" />
+        <option value="$PROJECT_DIR$/js/filters.js" />
         <option value="$PROJECT_DIR$/js/controllers.js" />
-        <option value="$PROJECT_DIR$/css/main.less" />
+        <option value="$PROJECT_DIR$/js/services.js" />
         <option value="$PROJECT_DIR$/partials/inputForm.html" />
+        <option value="$PROJECT_DIR$/css/main.less" />
       </list>
     </option>
   </component>
@@ -559,7 +470,11 @@
       <created>1351818480356</created>
       <updated>1351818480356</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="input form">
+      <created>1352171930070</created>
+      <updated>1352171930070</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -584,12 +499,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1922" height="1177" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43927893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21821631" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890856" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16499737" sideWeight="0.56072104" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16499737" sideWeight="0.7817837" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43067846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -599,7 +515,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953465" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -640,7 +555,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="map and add marker" />
+    <option name="LAST_COMMIT_MESSAGE" value="input form" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -659,6 +574,7 @@
     <MESSAGE value="map directive" />
     <MESSAGE value="index clean up" />
     <MESSAGE value="map and add marker" />
+    <MESSAGE value="input form" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -666,11 +582,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/angular/version.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/vendor/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="235" column="19" selection-start="100027" selection-end="100027" vertical-scroll-proportion="-3.6042345">
@@ -708,13 +619,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2175" column="2" selection-start="38873" selection-end="38903" vertical-scroll-proportion="-12.653846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
@@ -729,13 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="41" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/vendor/jquery-1.8.2.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -743,40 +640,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="592" column="0" selection-start="8784" selection-end="8811" vertical-scroll-proportion="-9.692307">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/directives.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="23" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0">
+        <state line="41" column="18" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="31" selection-start="39" selection-end="61" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="22" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="0" selection-start="1994" selection-end="1994" vertical-scroll-proportion="0.0">
+        <state line="129" column="33" selection-start="3904" selection-end="3904" vertical-scroll-proportion="-11.192307">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="50" selection-start="2019" selection-end="2019" vertical-scroll-proportion="-23.125">
+        <state line="52" column="135" selection-start="2269" selection-end="2269" vertical-scroll-proportion="-21.875">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/inputForm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="14" selection-start="342" selection-end="342" vertical-scroll-proportion="0.19444445">
+        <state line="3" column="103" selection-start="378" selection-end="378" vertical-scroll-proportion="-1.875">
           <folding>
             <element signature="n#style#0;n#input#0;n#div#2;n#form#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="6" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="5" selection-start="333" selection-end="333" vertical-scroll-proportion="0.4140527">
+          <folding />
         </state>
       </provider>
     </entry>
