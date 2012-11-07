@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="29c6350e-a9ea-4a9e-a967-91e3f576dc5d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.less" afterPath="$PROJECT_DIR$/css/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers.js" afterPath="$PROJECT_DIR$/js/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives.js" afterPath="$PROJECT_DIR$/js/directives.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/filters.js" afterPath="$PROJECT_DIR$/js/filters.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/services.js" afterPath="$PROJECT_DIR$/js/services.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/inputForm.html" afterPath="$PROJECT_DIR$/partials/inputForm.html" />
     </list>
@@ -50,7 +47,7 @@
       <file leaf-file-name="directives.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/directives.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="18" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.0">
+            <state line="26" column="20" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -59,7 +56,7 @@
       <file leaf-file-name="inputForm.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/inputForm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="103" selection-start="378" selection-end="378" vertical-scroll-proportion="-1.875">
+            <state line="13" column="41" selection-start="830" selection-end="830" vertical-scroll-proportion="-8.125">
               <folding>
                 <element signature="n#style#0;n#input#0;n#div#2;n#form#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -70,7 +67,7 @@
       <file leaf-file-name="filters.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/filters.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="31" selection-start="39" selection-end="61" vertical-scroll-proportion="0.0">
+            <state line="27" column="13" selection-start="413" selection-end="790" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -94,19 +91,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="controllers.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="33" selection-start="3904" selection-end="3904" vertical-scroll-proportion="-11.192307">
+            <state line="112" column="5" selection-start="3527" selection-end="3527" vertical-scroll-proportion="0.12451362">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="services.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="5" selection-start="333" selection-end="333" vertical-scroll-proportion="0.4140527">
+            <state line="56" column="57" selection-start="1624" selection-end="1624" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -133,12 +130,12 @@
         <option value="$PROJECT_DIR$/partials/map.html" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/directives.js" />
         <option value="$PROJECT_DIR$/js/filters.js" />
+        <option value="$PROJECT_DIR$/css/main.less" />
+        <option value="$PROJECT_DIR$/js/directives.js" />
         <option value="$PROJECT_DIR$/js/controllers.js" />
         <option value="$PROJECT_DIR$/js/services.js" />
         <option value="$PROJECT_DIR$/partials/inputForm.html" />
-        <option value="$PROJECT_DIR$/css/main.less" />
       </list>
     </option>
   </component>
@@ -474,7 +471,11 @@
       <created>1352171930070</created>
       <updated>1352171930070</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="input form finish">
+      <created>1352234250811</created>
+      <updated>1352234250811</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -555,7 +556,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="input form" />
+    <option name="LAST_COMMIT_MESSAGE" value="input form finish" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -575,6 +576,7 @@
     <MESSAGE value="index clean up" />
     <MESSAGE value="map and add marker" />
     <MESSAGE value="input form" />
+    <MESSAGE value="input form finish" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -647,40 +649,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="18" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/filters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="31" selection-start="39" selection-end="61" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="33" selection-start="3904" selection-end="3904" vertical-scroll-proportion="-11.192307">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="135" selection-start="2269" selection-end="2269" vertical-scroll-proportion="-21.875">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/inputForm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="103" selection-start="378" selection-end="378" vertical-scroll-proportion="-1.875">
-          <folding>
-            <element signature="n#style#0;n#input#0;n#div#2;n#form#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -691,9 +663,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="13" selection-start="413" selection-end="790" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="20" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="333" selection-end="333" vertical-scroll-proportion="0.4140527">
+        <state line="56" column="57" selection-start="1624" selection-end="1624" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/inputForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="41" selection-start="830" selection-end="830" vertical-scroll-proportion="-8.125">
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#2;n#form#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="5" selection-start="3527" selection-end="3527" vertical-scroll-proportion="0.12451362">
           <folding />
         </state>
       </provider>

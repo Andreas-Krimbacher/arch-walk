@@ -31,6 +31,7 @@ archWalk.MapController = function( $scope, $rootScope ) {
         }
         else{
             $scope.editable = null;
+            $scope.drawControl = null;
         }
 
     });
@@ -42,6 +43,7 @@ archWalk.MapController = function( $scope, $rootScope ) {
         }
         else{
             $scope.editable = null;
+            $scope.drawControl = null;
         }
     });
 
@@ -106,6 +108,9 @@ archWalk.MapController = function( $scope, $rootScope ) {
         }
     };
 
+    $rootScope.getPolygonData = function(){
+        return $scope.polygon;
+    }
 
 
 };
@@ -113,6 +118,7 @@ archWalk.MapController = function( $scope, $rootScope ) {
 archWalk.FormController = function( $scope,$rootScope , $filter,  MediaWiki) {
 
     $scope.title = "";
+    $scope.information = "";
     $scope.mainCategory = "Architecture";
     $scope.language = "English";
     $scope.markerInfo = {};
@@ -127,11 +133,89 @@ archWalk.FormController = function( $scope,$rootScope , $filter,  MediaWiki) {
         $rootScope.$broadcast('showLocation', locationSearchText);
     }
 
+
+
+
     $scope.saveData = function(){
         var pageName = $filter('pageNameTitle')($scope.title)+'_'+$scope.mainCategory+'_'+$filter('pageNameLocation')($scope.markerInfo)+'_'+$filter('pageNameLanguage')($scope.language);
-        MediaWiki.checkPageName();
+        MediaWiki.checkPageName(pageName,function(status,pageName){
+            if(status){
+                $scope.createPage(pageName);
+            }
+        });
     }
 
+
+    $scope.createPage = function(pageName){
+        var poly = $rootScope.getPolygonData();
+        var pointArray = poly.getPath().getArray();
+
+        var wkt = 'POLYGON (('
+        var x;
+
+       for(x= 0; x<pointArray.length-1;x++){
+            wkt += pointArray[x].Ya;
+            wkt += ' ';
+            wkt += pointArray[x].Za;
+            wkt += ', ';
+        }
+        wkt += pointArray[x].Ya;
+        wkt += ' ';
+        wkt += pointArray[x].Za;
+        wkt += '))';
+
+        if(!$scope.otherCategories) $scope.otherCategories = [];
+
+
+        var siteData = {
+            pageName:pageName,
+            title:$scope.title,
+            mainCategory:$scope.mainCategory,
+            otherCategories:$scope.otherCategories,
+            language:$scope.language,
+            information:$scope.information,
+            wkt:wkt,
+            lat:$scope.markerInfo.position.Ya,
+            lng:$scope.markerInfo.position.Za,
+            formatted_address:$scope.markerInfo.formatted_address,
+            street_number:'undefined',
+            route:'undefined',
+            locality:'undefined',
+            country:'undefined',
+            postal_code:'undefined'
+        }
+
+
+        for(x in $scope.markerInfo.address_components){
+            if($scope.markerInfo.address_components[x].types[0] == 'street_number'){
+                siteData.street_number = $scope.markerInfo.address_components[x].long_name;
+            }
+            if($scope.markerInfo.address_components[x].types[0] == 'route'){
+                siteData.route = $scope.markerInfo.address_components[x].long_name;
+            }
+            if($scope.markerInfo.address_components[x].types[0] == 'locality'){
+                siteData.locality = $scope.markerInfo.address_components[x].long_name;
+            }
+            if($scope.markerInfo.address_components[x].types[0] == 'country'){
+                siteData.country = $scope.markerInfo.address_components[x].long_name;
+            }
+            if($scope.markerInfo.address_components[x].types[0] == 'postal_code'){
+                siteData.postal_code = $scope.markerInfo.address_components[x].long_name;
+            }
+        }
+
+
+
+        MediaWiki.createPage(siteData,function(status,pageName){
+            if(status){
+                alert(pageName+' - was created successfully. Heureka!');
+                $scope.clearForm();
+            }
+        });
+    }
+
+
+    //DrawControl
     $scope.editPolygon = function(){
         if($scope.polygonEdit){
             $rootScope.$broadcast('editPolygon', false);
@@ -165,7 +249,7 @@ archWalk.FormController = function( $scope,$rootScope , $filter,  MediaWiki) {
         }
     }
 
-
+    //Validation info
     $scope.$on('setValidation', function(e,status){
         $scope.mapData=status;
     });
@@ -179,5 +263,21 @@ archWalk.FormController = function( $scope,$rootScope , $filter,  MediaWiki) {
             $scope.markerInfo.address_components = null;
         }
     });
+
+    //clearForm
+
+    $scope.clearForm = function(){
+        $scope.title = "";
+        $scope.information = "";
+
+        $rootScope.$broadcast('deleteElement', 'poly');
+        $rootScope.$broadcast('deleteElement', 'point');
+
+        $scope.polygonEdit = false;
+        $scope.pointEdit = false;
+        $rootScope.$broadcast('editPolygon', false);
+        $rootScope.$broadcast('editPoint', false);
+
+    }
 
 };

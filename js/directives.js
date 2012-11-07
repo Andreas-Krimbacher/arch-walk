@@ -10,8 +10,8 @@ archWalk.directive('map', function(Leaflet) {
         link: function(scope, element, attrs) {
 
             var mapOptions = {
-                zoom: 1,
-                center: new google.maps.LatLng(0, 0),
+                zoom: 14,
+                center: new google.maps.LatLng(47.373,8.542),
                 disableDefaultUI: true,
                 mapTypeControl: true,
                 mapTypeId: google.maps.MapTypeId.ROADMAP
