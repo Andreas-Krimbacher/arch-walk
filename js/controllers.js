@@ -154,14 +154,14 @@ archWalk.FormController = function( $scope,$rootScope , $filter,  MediaWiki) {
         var x;
 
        for(x= 0; x<pointArray.length-1;x++){
-            wkt += pointArray[x].Ya;
+            wkt += pointArray[x].lat();
             wkt += ' ';
-            wkt += pointArray[x].Za;
+            wkt += pointArray[x].lng();
             wkt += ', ';
         }
-        wkt += pointArray[x].Ya;
+        wkt += pointArray[x].lat();
         wkt += ' ';
-        wkt += pointArray[x].Za;
+        wkt += pointArray[x].lng();
         wkt += '))';
 
         if(!$scope.otherCategories) $scope.otherCategories = [];
@@ -175,8 +175,8 @@ archWalk.FormController = function( $scope,$rootScope , $filter,  MediaWiki) {
             language:$scope.language,
             information:$scope.information,
             wkt:wkt,
-            lat:$scope.markerInfo.position.Ya,
-            lng:$scope.markerInfo.position.Za,
+            lat:$scope.markerInfo.position.lat(),
+            lng:$scope.markerInfo.position.lng(),
             formatted_address:$scope.markerInfo.formatted_address,
             street_number:'undefined',
             route:'undefined',

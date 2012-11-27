@@ -81,18 +81,42 @@ archWalk.factory('MediaWiki', ['$http',function($http) {
 
             if(data.query && data.query.pages[-1] && data.query.pages[-1].edittoken){
 
+                options.token = data.query.pages[-1].edittoken;
+
                 options.params={action:'edit',
                     prop:'info',
                     title:options.params.titles,
                     text:options.wikiText,
-                    token:data.query.pages[-1].edittoken,
+                    token:options.token,
                     format:'json'};
 
                 options.method = 'POST';
 
                 $http(options).success(function(data, status, headers, config) {
                     if(data.edit.result == 'Success'){
-                        options.callback(true,data.edit.title);
+
+                        options.params={action:'edit',
+                            prop:'info',
+                            title:options.params.title,
+                            appendtext:'\n\nPageId: [[PageId::'+data.edit.pageid+']]',
+                            token:options.token,
+                            format:'json'};
+
+                        options.method = 'POST';
+
+                        $http(options).success(function(data, status, headers, config) {
+                            if(data.edit.result == 'Success'){
+                                options.callback(true,data.edit.title);
+                            }
+                            else{
+                                alert('Can not write to MediaWiki:' + data.edit.result);
+                                options.callback(false);
+                            }
+                        }).
+                        error(function(data, status, headers, config) {
+                            alert('MediaWiki connection failed: ' + status);
+                            options.callback(false);
+                        });
                     }
                     else{
                         alert('Can not write to MediaWiki:' + data.edit.result);
