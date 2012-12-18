@@ -2,7 +2,9 @@
 
 /* Directives */
 
-archWalk.directive('map', function(Leaflet) {
+//Map Directive
+
+archWalk.directive('map', function() {
     return {
         restrict: 'E',
         replace: false,

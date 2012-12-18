@@ -1,9 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29c6350e-a9ea-4a9e-a967-91e3f576dc5d" name="Default" comment="">
+    <list default="true" id="29c6350e-a9ea-4a9e-a967-91e3f576dc5d" name="Default" comment="pageid">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apple-touch-icon-114x114-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apple-touch-icon-144x144-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apple-touch-icon-57x57-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apple-touch-icon-72x72-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apple-touch-icon-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/testacular-e2e-server.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/testacular-e2e.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/testacular-server.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/testacular.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crossdomain.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/main.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/TOC.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/crossdomain.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/css.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/extend.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/faq.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/htaccess.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/html.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/js.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/misc.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/usage.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/humans.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/Jakefile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/build/build.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/build/build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/build/deps.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/build/hint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/build/hintrc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/dist/images/layers.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/dist/images/marker-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/dist/images/marker-shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/dist/images/zoom-in.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/dist/images/zoom-out.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/dist/leaflet-src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/dist/leaflet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/dist/leaflet.ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/dist/leaflet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/css/mobile.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/css/screen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/hacks/jitter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/leaflet-include.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/map/canvas.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/map/controls.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/map/geolocation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/map/image-overlay.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/map/map-mobile.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/map/map.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/map/max-bounds.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/map/scroll.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/map/wms-marble.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/map/wms.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/tests/opacity.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/vector/bounds-extend.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/vector/editable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/vector/feature-group-bounds.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/vector/geojson-sample.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/vector/geojson.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/vector/rectangle.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/vector/route.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/vector/touchzoomemu.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/vector/us-states.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/vector/vector-bounds.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/vector/vector-canvas.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/vector/vector-mobile.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/vector/vector-simple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/examples/vector/vector.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/Leaflet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/control/Control.Attribution.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/control/Control.Layers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/control/Control.Scale.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/control/Control.Zoom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/control/Control.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/core/Browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/core/Class.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/core/Events.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/core/Handler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/core/Util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/dom/DomEvent.DoubleTap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/dom/DomEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/dom/DomUtil.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/dom/Draggable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/dom/transition/Transition.Native.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/dom/transition/Transition.Timer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/dom/transition/Transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/geo/LatLng.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/geo/LatLngBounds.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/geo/crs/CRS.EPSG3395.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/geo/crs/CRS.EPSG3857.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/geo/crs/CRS.EPSG4326.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/geo/crs/CRS.Simple.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/geo/crs/CRS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/geo/projection/Projection.LonLat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/geo/projection/Projection.Mercator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/geo/projection/Projection.SphericalMercator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/geo/projection/Projection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/geometry/Bounds.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/geometry/LineUtil.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/geometry/Point.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/geometry/PolyUtil.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/geometry/Transformation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/FeatureGroup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/GeoJSON.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/ImageOverlay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/LayerGroup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/Popup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/marker/DivIcon.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/marker/Icon.Default.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/marker/Icon.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/marker/Marker.Drag.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/marker/Marker.Popup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/marker/Marker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/tile/TileLayer.Canvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/tile/TileLayer.WMS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/tile/TileLayer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/vector/Circle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/vector/CircleMarker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/vector/MultiPoly.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/vector/Path.Popup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/vector/Path.SVG.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/vector/Path.VML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/vector/Path.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/vector/Polygon.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/vector/Polyline.Edit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/vector/Polyline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/vector/Rectangle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/vector/canvas/Circle.Canvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/vector/canvas/Path.Canvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/vector/canvas/Polygon.Canvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/layer/vector/canvas/Polyline.Canvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/map/Map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/map/anim/Map.PanAnimation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/map/anim/Map.ZoomAnimation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/map/ext/Map.Control.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/map/ext/Map.Geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/map/ext/Map.Popup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/map/handler/Map.BoxZoom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/map/handler/Map.DoubleClickZoom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/map/handler/Map.Drag.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/map/handler/Map.Keyboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/map/handler/Map.ScrollWheelZoom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/src/map/handler/Map.TouchZoom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/test/unit/leaflet/BoundsSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/test/unit/leaflet/ClassSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/test/unit/leaflet/DomEventSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/test/unit/leaflet/DomUtilSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/test/unit/leaflet/EventsSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/test/unit/leaflet/LatLngSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/test/unit/leaflet/LeafletSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/test/unit/leaflet/PointSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/test/unit/leaflet/PolylineGeometrySpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/test/unit/leaflet/ProjectionSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/test/unit/leaflet/SpecHelper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/test/unit/leaflet/TransformationSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet/test/unit/leaflet/UtilSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/e2e/runner.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/e2e/scenarios.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/lib/angular/angular-mocks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/lib/angular/angular-scenario.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/lib/angular/version.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/controllersSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/directivesSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/filtersSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/servicesSpec.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers.js" afterPath="$PROJECT_DIR$/js/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives.js" afterPath="$PROJECT_DIR$/js/directives.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/services.js" afterPath="$PROJECT_DIR$/js/services.js" />
     </list>
     <ignored path="arch-walk.iws" />
@@ -24,37 +201,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="services.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="135" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.0">
+            <state line="14" column="39" selection-start="366" selection-end="366" vertical-scroll-proportion="0.4329897">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.less">
+      <file leaf-file-name="plugins.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/plugins.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="6" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="directives.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/directives.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="20" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="inputForm.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/inputForm.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="41" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -69,19 +228,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <file leaf-file-name="inputForm.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partials/inputForm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="592" column="0" selection-start="8784" selection-end="8811" vertical-scroll-proportion="0.0">
+            <state line="13" column="41" selection-start="830" selection-end="830" vertical-scroll-proportion="-0.6666667">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/app.js">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
+            <state line="11" column="59" selection-start="584" selection-end="584" vertical-scroll-proportion="12.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="directives.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/directives.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="35" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,16 +258,7 @@
       <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="178" column="48" selection-start="5398" selection-end="5398" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/services.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="27" selection-start="2360" selection-end="2360" vertical-scroll-proportion="0.3412798">
+            <state line="120" column="31" selection-start="3588" selection-end="3588" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,21 +284,21 @@
         <option value="$PROJECT_DIR$/partials/phone-detail.html" />
         <option value="$PROJECT_DIR$/partials/map.html" />
         <option value="$PROJECT_DIR$/js/app.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/filters.js" />
         <option value="$PROJECT_DIR$/css/main.less" />
-        <option value="$PROJECT_DIR$/js/directives.js" />
         <option value="$PROJECT_DIR$/partials/inputForm.html" />
-        <option value="$PROJECT_DIR$/js/controllers.js" />
         <option value="$PROJECT_DIR$/js/services.js" />
+        <option value="$PROJECT_DIR$/js/controllers.js" />
+        <option value="$PROJECT_DIR$/js/directives.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
     <option name="y" value="24" />
-    <option name="width" value="1922" />
-    <option name="height" value="1177" />
+    <option name="width" value="1282" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -257,24 +416,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leaflet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arch-walk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arch-walk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -301,11 +442,11 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig" serverName="node" serverId="20a01574-d36e-4239-81d2-494739ab6c04">
     <servers>
@@ -475,7 +616,11 @@
       <created>1352249128952</created>
       <updated>1352249128952</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="pageid">
+      <created>1353977199657</created>
+      <updated>1353977199657</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -499,13 +644,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="24" width="1922" height="1177" extended-state="6" />
+    <frame x="-1" y="24" width="1282" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21821631" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21712539" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890856" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16499737" sideWeight="0.7817837" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1646778" sideWeight="0.78287464" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43067846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -556,7 +701,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="pageid" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -578,6 +723,7 @@
     <MESSAGE value="input form" />
     <MESSAGE value="input form finish" />
     <MESSAGE value="v1.0" />
+    <MESSAGE value="pageid" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -585,11 +731,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/vendor/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="235" column="19" selection-start="100027" selection-end="100027" vertical-scroll-proportion="-3.6042345" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/vendor/modernizr-2.6.2.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -610,13 +751,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../map/Leaflet.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="86" selection-start="2628" selection-end="2628" vertical-scroll-proportion="0.22727273" />
@@ -627,23 +761,37 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="0.371134">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="592" column="0" selection-start="8784" selection-end="8811" vertical-scroll-proportion="0.0">
+        <state line="592" column="0" selection-start="8784" selection-end="8811" vertical-scroll-proportion="0.03177966">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/plugins.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="135" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.less">
+    <entry file="file://$PROJECT_DIR$/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="6" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.0">
+        <state line="120" column="31" selection-start="3588" selection-end="3588" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="35" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -655,30 +803,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="20" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/inputForm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="41" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
+        <state line="13" column="41" selection-start="830" selection-end="830" vertical-scroll-proportion="-0.6666667">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="48" selection-start="5398" selection-end="5398" vertical-scroll-proportion="0.0">
+        <state line="11" column="59" selection-start="584" selection-end="584" vertical-scroll-proportion="12.25">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="27" selection-start="2360" selection-end="2360" vertical-scroll-proportion="0.3412798">
+        <state line="14" column="39" selection-start="366" selection-end="366" vertical-scroll-proportion="0.4329897">
           <folding />
         </state>
       </provider>

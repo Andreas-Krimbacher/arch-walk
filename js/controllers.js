@@ -2,6 +2,8 @@
 
 /* Controllers */
 
+//Controller for the Map
+
 archWalk.MapController = function( $scope, $rootScope ) {
     var geocoder = new google.maps.Geocoder();
 
@@ -104,7 +106,7 @@ archWalk.MapController = function( $scope, $rootScope ) {
             $rootScope.$broadcast('showMarkerInfo',false);
         }
         else{
-            $rootScope.$broadcast('showMarkerInfo',$scope.markerPositionInfo);
+            $rootScope.$broadcast('showMarkerInfo',$scope.markerPosition);
         }
     };
 
@@ -114,6 +116,9 @@ archWalk.MapController = function( $scope, $rootScope ) {
 
 
 };
+
+
+//Controller for the whole Form
 
 archWalk.FormController = function( $scope,$rootScope , $filter,  MediaWiki) {
 
@@ -256,7 +261,8 @@ archWalk.FormController = function( $scope,$rootScope , $filter,  MediaWiki) {
 
     $scope.$on('showMarkerInfo', function(e,info){
         if(info){
-            $scope.markerInfo = info;
+            if(!$scope.markerInfo) $scope.markerInfo = {};
+            $scope.markerInfo.position = info;
         }
         else{
             $scope.markerInfo.formatted_address = "No point info available.";
