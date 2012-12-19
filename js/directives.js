@@ -1,5 +1,7 @@
 'use strict';
 
+/* Autor: Andreas Krimbacher */
+
 /* Directives */
 
 //Map Directive

@@ -1,5 +1,7 @@
 'use strict';
 
+/* Autor: Andreas Krimbacher */
+
 /* Service */
 
 archWalk.factory('MediaWiki', ['$http',function($http) {

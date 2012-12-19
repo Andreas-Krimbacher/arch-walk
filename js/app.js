@@ -1,6 +1,9 @@
 'use strict';
 
+/* Autor: Andreas Krimbacher */
+
 /* App Module */
+
 
 //var archWalk = angular.module('arch-walk', []);
 

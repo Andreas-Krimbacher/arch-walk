@@ -1,5 +1,7 @@
 'use strict';
 
+/* Autor: Andreas Krimbacher */
+
 /* Controllers */
 
 //Controller for the Map
