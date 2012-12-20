@@ -67,7 +67,7 @@ archWalk.MapController = function( $scope, $rootScope ) {
                         if (results[0]) {
                             $scope.markerPositionInfo.address_components = results[0].address_components;
                             $scope.markerPositionInfo.formatted_address = results[0].formatted_address;
-                            $scope.markerPositionInfo.position =  results[0].geometry.location;
+                            $scope.markerPositionInfo.position =  newValue;
 
                             $scope.checkValidate();
                             $scope.showMarkerInfo();
@@ -108,7 +108,7 @@ archWalk.MapController = function( $scope, $rootScope ) {
             $rootScope.$broadcast('showMarkerInfo',false);
         }
         else{
-            $rootScope.$broadcast('showMarkerInfo',$scope.markerPosition);
+            $rootScope.$broadcast('showMarkerInfo',$scope.markerPositionInfo);
         }
     };
 
@@ -263,8 +263,7 @@ archWalk.FormController = function( $scope,$rootScope , $filter,  MediaWiki) {
 
     $scope.$on('showMarkerInfo', function(e,info){
         if(info){
-            if(!$scope.markerInfo) $scope.markerInfo = {};
-            $scope.markerInfo.position = info;
+            $scope.markerInfo = info;
         }
         else{
             $scope.markerInfo.formatted_address = "No point info available.";
